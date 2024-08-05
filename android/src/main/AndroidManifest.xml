@@ -7,9 +7,11 @@
     <application>
         <service
             android:name="org.strongswan.android.logic.VpnStateService"
+            android:foregroundServiceType="remoteMessaging"
             android:exported="false" />
         <service
             android:name="org.strongswan.android.logic.CharonVpnService"
+            android:foregroundServiceType="remoteMessaging"
             android:permission="android.permission.BIND_VPN_SERVICE" />
         <service
            android:name="id.flutter.flutter_background_service.BackgroundService"
