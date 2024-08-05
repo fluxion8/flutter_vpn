@@ -13,9 +13,5 @@
             android:name="org.strongswan.android.logic.CharonVpnService"
             android:foregroundServiceType="remoteMessaging"
             android:permission="android.permission.BIND_VPN_SERVICE" />
-        <service
-           android:name="id.flutter.flutter_background_service.BackgroundService"
-           android:foregroundServiceType="remoteMessaging"
-           />
     </application>
 </manifest>
